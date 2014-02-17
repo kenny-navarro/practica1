@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+type struct hombres{
+     char nombre[25];
+     int estatura;
+     int peso;
+     }hombre;
+     int main(){
+         int c=0,temp[5];
+         hombres galan[5]ido{
+                printf("Dame el nombre");
+                fflush(stdin);
+                scanf("s"&galan[c].nombre);
+                printf("Dame la estatura");
+                scanf("d",&galan[c].estatura);
+                printf("Dame su peso");
+                scanf("%d"&galan[c].peso);
+                c++;
+                }
+                }
+                while(c<5);
+                for(c=0,c<5;c++){
+                                 temp[c]=abs(galan[c].estatura-180);
+                                 }
+                                 
+         
+               
